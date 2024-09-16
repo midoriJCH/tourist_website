@@ -4,7 +4,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: "Actor", sans-serif;
-    font-weight: 800;
+    font-weight: 1000;
 }
 /*hero*/
 #hero {
@@ -33,15 +33,30 @@ body {
     max-height: 52px;
 }
 /*mid section*/
-#top-things {
-    margin: 0;
+
+#middle-section-title {
+    padding: 50px 0 50px 0;
     background: #f1faee;
-    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #1d3557;
+    margin: 0;
 }
+
+#middle-section {
+    background: #f1faee;
+    display: flex;
+    justify-content: space-around;
+    color: #1d3557;
+    padding: 50px 0 50px 0;
+    margin: 0;
+}
+
 
 .place-img {
     display: inline-block;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #f1faee;
 }
 
@@ -64,6 +79,13 @@ img {
     border-radius: 100%;
 }
 /*bottom-section*/
+
+#bottom-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
 .logo {
     border: 0;
     border-radius: 0px;
@@ -75,7 +97,10 @@ img {
 }
 
 .card {
-    width: 500px;
+    max-width: 570px;
+    max-height: 294px;
+    width: auto;
+    height: auto;
     padding: 20px;
     background: #a8dadc;
     display: flex;
