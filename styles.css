@@ -69,10 +69,15 @@ img {
     padding: 20px;
     background: #a8dadc;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
     color: #1d3557;
     border-bottom: 5px solid black;
     border-radius: 10px;
 
+}
+
+.card-text {
+    padding-top: 30px;
 }
 
