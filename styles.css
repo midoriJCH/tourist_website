@@ -39,19 +39,29 @@ body {
     padding: 20px;
 }
 
-#main {
-    display: flex;
-    justify-content: space-around;
+.place-img {
+    display: inline-block;
+    flex-direction: column;
     background-color: #f1faee;
+}
+
+#place-img-1 {
+    align-items: start;
+}
+
+#place-img-2 {
+    align-items: center;
+}
+
+#place-img-3 {
+    align-items: end;
+    
 }
 
 img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
 }
 /*bottom-section*/
 .logo {
