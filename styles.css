@@ -1,0 +1,78 @@
+/* midoriJCH 13/09/2024 */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Actor", sans-serif;
+    font-weight: 800;
+}
+/*hero*/
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("assets/Leeds-City-Centre.webp");
+    background-size: cover;
+    color: #f1faee;
+    padding: 35px 0 170px 0px;
+}
+
+#leeds {
+    background: #1d3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 150px 20px 20px 0px;
+}
+
+#yorkshire {
+    background: #a8dadc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    max-width: 412px;
+    max-height: 52px;
+}
+/*mid section*/
+#top-things {
+    margin: 0;
+    background: #f1faee;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1faee;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+/*bottom-section*/
+.logo {
+    border: 0;
+    border-radius: 0px;
+    padding-right: 20px;
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.card {
+    width: 500px;
+    padding: 20px;
+    background: #a8dadc;
+    display: flex;
+    justify-content: space-around;
+    color: #1d3557;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+
+}
+
