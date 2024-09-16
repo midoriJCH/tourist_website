@@ -8,6 +8,16 @@ body {
     font-style: normal;
 }
 
+h3 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
 /*hero*/
 #hero {
     display: flex;
@@ -21,21 +31,20 @@ body {
 
 #leeds {
     background: #1d3557;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
     margin: 150px 20px 20px 0px;
 }
 
 #yorkshire {
-    background: #a8dadc;
-    padding: 5px 10px;
-    border-radius: 5px;
+    background: #457b9d;
+    padding: 20px 100px;
+    border-radius: 10px;
     margin: 5px 0 10px 0;
     max-width: 412px;
     max-height: 52px;
 }
 /*mid section*/
-
 #middle-section-title {
     padding: 50px 0 50px 0;
     background: #f1faee;
@@ -48,19 +57,19 @@ body {
 #middle-section {
     background: #f1faee;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #1d3557;
-    padding: 50px 0 50px 0;
-    margin: 0;
     font-weight: 400;
+    padding-bottom: 50px;
 }
-
 
 .place-img {
     display: inline-block;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #f1faee;
+    max-width: 300px;
+    padding: 20px;
 }
 
 #place-img-1 {
